@@ -1,0 +1,1326 @@
+{
+    "total": 188,
+    "name": "",
+    "movies": [
+        {
+            "id": 9567,
+            "name": "\u0421\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u0430 \u0437\u0431\u0440\u043e\u044f 2",
+            "link": "\/movie-lethal-weapon-2",
+            "poster": "\/images\/serials\/64\/64d21b4c584d4539963457.webp",
+            "year": {
+                "name": "1989",
+                "link": "\/selection\/movie\/year-1989"
+            },
+            "imdb": "7.30",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u043f\u0440\u0438\u0433\u043e\u0434\u0438",
+                    "link": "\/selection\/movie\/genre-adventure"
+                },
+                {
+                    "name": "\u043a\u0440\u0438\u043c\u0456\u043d\u0430\u043b\u044c\u043d\u0438\u0439",
+                    "link": "\/selection\/movie\/genre-kriminalnij"
+                },
+                {
+                    "name": "\u0435\u043a\u0448\u043d",
+                    "link": "\/selection\/movie\/genre-action-1"
+                },
+                {
+                    "name": "\u0442\u0440\u0438\u043b\u0435\u0440",
+                    "link": "\/selection\/movie\/genre-thriller"
+                },
+                {
+                    "name": "\u043a\u043e\u043c\u0435\u0434\u0456\u044f",
+                    "link": "\/selection\/movie\/genre-comedy"
+                },
+                {
+                    "name": "\u0431\u043e\u0439\u043e\u0432\u0438\u043a",
+                    "link": "\/selection\/movie\/genre-action"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 21,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 2,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 54,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 31
+                }
+            }
+        },
+        {
+            "id": 2022,
+            "name": "\u041e\u0432\u0435\u0440\u043b\u043e\u0440\u0434",
+            "link": "\/movie-overlord",
+            "poster": "\/images\/serials\/64\/6436b2a342754351500959.webp",
+            "year": {
+                "name": "2018",
+                "link": "\/selection\/movie\/year-2018"
+            },
+            "imdb": "6.60",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u043f\u0440\u0438\u0433\u043e\u0434\u0438",
+                    "link": "\/selection\/movie\/genre-adventure"
+                },
+                {
+                    "name": "\u0432\u043e\u0454\u043d\u043d\u0438\u0439",
+                    "link": "\/selection\/movie\/genre-military"
+                },
+                {
+                    "name": "\u0435\u043a\u0448\u043d",
+                    "link": "\/selection\/movie\/genre-action-1"
+                },
+                {
+                    "name": "\u0436\u0430\u0445\u0438",
+                    "link": "\/selection\/movie\/genre-horrors"
+                },
+                {
+                    "name": "\u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430",
+                    "link": "\/selection\/movie\/genre-fantasy-1"
+                },
+                {
+                    "name": "\u0442\u0440\u0438\u043b\u0435\u0440",
+                    "link": "\/selection\/movie\/genre-thriller"
+                },
+                {
+                    "name": "\u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432",
+                    "link": "\/selection\/movie\/genre-detective"
+                },
+                {
+                    "name": "\u0431\u043e\u0439\u043e\u0432\u0438\u043a",
+                    "link": "\/selection\/movie\/genre-action"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 42,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 2,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 48,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 33
+                }
+            }
+        },
+        {
+            "id": 9665,
+            "name": "\u0414\u043e\u0431\u0440\u043e\u0433\u043e \u0440\u0430\u043d\u043a\u0443, \u0412\u0027\u0454\u0442\u043d\u0430\u043c",
+            "link": "\/movie-good-morning-vietnam",
+            "poster": "\/images\/serials\/64\/64d25c28bb8d7672308589.webp",
+            "year": {
+                "name": "1987",
+                "link": "\/selection\/movie\/year-1987"
+            },
+            "imdb": "7.30",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u0434\u0440\u0430\u043c\u0430",
+                    "link": "\/selection\/movie\/genre-drama"
+                },
+                {
+                    "name": "\u0432\u043e\u0454\u043d\u043d\u0438\u0439",
+                    "link": "\/selection\/movie\/genre-military"
+                },
+                {
+                    "name": "\u0431\u0456\u043e\u0433\u0440\u0430\u0444\u0456\u044f",
+                    "link": "\/selection\/movie\/genre-biography"
+                },
+                {
+                    "name": "\u043a\u043e\u043c\u0435\u0434\u0456\u044f",
+                    "link": "\/selection\/movie\/genre-comedy"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 69,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 2,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 38,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 39
+                }
+            }
+        },
+        {
+            "id": 2337,
+            "name": "\u0411\u0430\u0440\u0440\u0456 \u0421\u0456\u043b: \u041a\u043e\u0440\u043e\u043b\u044c \u043a\u043e\u043d\u0442\u0440\u0430\u0431\u0430\u043d\u0434\u0438",
+            "link": "\/movie-american-made",
+            "poster": "\/images\/serials\/64\/64466a1c9fcb7862552094.webp",
+            "year": {
+                "name": "2017",
+                "link": "\/selection\/movie\/year-2017"
+            },
+            "imdb": "7.10",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u0434\u0440\u0430\u043c\u0430",
+                    "link": "\/selection\/movie\/genre-drama"
+                },
+                {
+                    "name": "\u043a\u0440\u0438\u043c\u0456\u043d\u0430\u043b\u044c\u043d\u0438\u0439",
+                    "link": "\/selection\/movie\/genre-kriminalnij"
+                },
+                {
+                    "name": "\u0435\u043a\u0448\u043d",
+                    "link": "\/selection\/movie\/genre-action-1"
+                },
+                {
+                    "name": "\u0431\u0456\u043e\u0433\u0440\u0430\u0444\u0456\u044f",
+                    "link": "\/selection\/movie\/genre-biography"
+                },
+                {
+                    "name": "\u0456\u0441\u0442\u043e\u0440\u0438\u0447\u043d\u0438\u0439",
+                    "link": "\/selection\/movie\/genre-historical"
+                },
+                {
+                    "name": "\u0442\u0440\u0438\u043b\u0435\u0440",
+                    "link": "\/selection\/movie\/genre-thriller"
+                },
+                {
+                    "name": "\u043a\u043e\u043c\u0435\u0434\u0456\u044f",
+                    "link": "\/selection\/movie\/genre-comedy"
+                },
+                {
+                    "name": "\u0431\u043e\u0439\u043e\u0432\u0438\u043a",
+                    "link": "\/selection\/movie\/genre-action"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 54,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 3,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 141,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 83
+                }
+            }
+        },
+        {
+            "id": 4926,
+            "name": "\u0421\u0430\u043c\u043e\u0442\u043d\u0456\u0439 \u0440\u0435\u0439\u043d\u0434\u0436\u0435\u0440",
+            "link": "\/movie-the-lone-ranger",
+            "poster": "\/images\/serials\/64\/647f958c62d4b025684177.webp",
+            "year": {
+                "name": "2013",
+                "link": "\/selection\/movie\/year-2013"
+            },
+            "imdb": "6.40",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u043f\u0440\u0438\u0433\u043e\u0434\u0438",
+                    "link": "\/selection\/movie\/genre-adventure"
+                },
+                {
+                    "name": "\u0432\u0435\u0441\u0442\u0435\u0440\u043d",
+                    "link": "\/selection\/movie\/genre-western"
+                },
+                {
+                    "name": "\u0435\u043a\u0448\u043d",
+                    "link": "\/selection\/movie\/genre-action-1"
+                },
+                {
+                    "name": "\u0431\u043e\u0439\u043e\u0432\u0438\u043a",
+                    "link": "\/selection\/movie\/genre-action"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 52,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 5,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 102,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 60
+                }
+            }
+        },
+        {
+            "id": 10151,
+            "name": "\u0407\u0442\u0456. \u0406\u043d\u043e\u043f\u043b\u0430\u043d\u0435\u0442\u044f\u043d\u0438\u043d \/ \u0406\u043d\u0448\u043e\u043f\u043b\u0430\u043d\u0435\u0442\u044f\u043d\u0438\u043d",
+            "link": "\/movie-e-t-the-extra-terrestrial",
+            "poster": "\/images\/serials\/64\/64d5f386273d3195505392.webp",
+            "year": {
+                "name": "1982",
+                "link": "\/selection\/movie\/year-1982"
+            },
+            "imdb": "7.90",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u043f\u0440\u0438\u0433\u043e\u0434\u0438",
+                    "link": "\/selection\/movie\/genre-adventure"
+                },
+                {
+                    "name": "\u0444\u0435\u043d\u0442\u0435\u0437\u0456",
+                    "link": "\/selection\/movie\/genre-fantasy"
+                },
+                {
+                    "name": "\u0441\u0456\u043c\u0435\u0439\u043d\u0438\u0439",
+                    "link": "\/selection\/movie\/genre-family"
+                },
+                {
+                    "name": "\u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430",
+                    "link": "\/selection\/movie\/genre-fantasy-1"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 51,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 1,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 44,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 38
+                }
+            }
+        },
+        {
+            "id": 9514,
+            "name": "\u0413\u043e\u043b\u0438\u0439 \u043f\u0456\u0441\u0442\u043e\u043b\u0435\u0442 \u00bd : \u0417\u0430\u043f\u0430\u0445 \u0421\u0442\u0440\u0430\u0445\u0443",
+            "link": "\/movie-the-naked-gun-1-2-the-smell-of-fear",
+            "poster": "\/images\/serials\/64\/64d1e10d101aa661422617.webp",
+            "year": {
+                "name": "1991",
+                "link": "\/selection\/movie\/year-1991"
+            },
+            "imdb": "6.90",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u043a\u0440\u0438\u043c\u0456\u043d\u0430\u043b\u044c\u043d\u0438\u0439",
+                    "link": "\/selection\/movie\/genre-kriminalnij"
+                },
+                {
+                    "name": "\u043a\u043e\u043c\u0435\u0434\u0456\u044f",
+                    "link": "\/selection\/movie\/genre-comedy"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 18,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 1,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 35,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 19
+                }
+            }
+        },
+        {
+            "id": 593,
+            "name": "\u0412\u043e\u0441\u044c\u043c\u0430 \u043c\u0438\u043b\u044f",
+            "link": "\/movie-8-mile",
+            "poster": "\/images\/serials\/64\/6413343644434565857809.webp",
+            "year": {
+                "name": "2002",
+                "link": "\/selection\/movie\/year-2002"
+            },
+            "imdb": "7.20",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u0434\u0440\u0430\u043c\u0430",
+                    "link": "\/selection\/movie\/genre-drama"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 60,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 2,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 95,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 52
+                }
+            }
+        },
+        {
+            "id": 2690,
+            "name": "\u0411\u043e\u0454\u0446\u044c",
+            "link": "\/movie-the-fighter",
+            "poster": "\/images\/serials\/64\/644bab5c279fc518774968.webp",
+            "year": {
+                "name": "2010",
+                "link": "\/selection\/movie\/year-2010"
+            },
+            "imdb": "7.80",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u0434\u0440\u0430\u043c\u0430",
+                    "link": "\/selection\/movie\/genre-drama"
+                },
+                {
+                    "name": "\u0431\u0456\u043e\u0433\u0440\u0430\u0444\u0456\u044f",
+                    "link": "\/selection\/movie\/genre-biography"
+                },
+                {
+                    "name": "\u0441\u043f\u043e\u0440\u0442",
+                    "link": "\/selection\/movie\/genre-sport"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 76,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 3,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 60,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 66
+                }
+            }
+        },
+        {
+            "id": 5484,
+            "name": "\u0414\u0456\u0432\u0447\u0438\u043d\u0430 \u0437 \u0442\u0430\u0442\u0443 \u0434\u0440\u0430\u043a\u043e\u043d\u0430",
+            "link": "\/movie-the-girl-with-the-dragon-tattoo",
+            "poster": "\/images\/serials\/64\/648ac95b150c8547164942.webp",
+            "year": {
+                "name": "2011",
+                "link": "\/selection\/movie\/year-2011"
+            },
+            "imdb": "7.80",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u0434\u0440\u0430\u043c\u0430",
+                    "link": "\/selection\/movie\/genre-drama"
+                },
+                {
+                    "name": "\u043a\u0440\u0438\u043c\u0456\u043d\u0430\u043b\u044c\u043d\u0438\u0439",
+                    "link": "\/selection\/movie\/genre-kriminalnij"
+                },
+                {
+                    "name": "\u0442\u0440\u0438\u043b\u0435\u0440",
+                    "link": "\/selection\/movie\/genre-thriller"
+                },
+                {
+                    "name": "\u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432",
+                    "link": "\/selection\/movie\/genre-detective"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 102,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 5,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 153,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 93
+                }
+            }
+        },
+        {
+            "id": 1159,
+            "name": "\u0417\u0430\u0432\u0438\u0441\u043d\u0443\u0442\u0438 \u0443 \u041f\u0430\u043b\u043c-\u0421\u043f\u0440\u0456\u043d\u0433\u0437",
+            "link": "\/movie-palm-springs",
+            "poster": "\/images\/serials\/64\/641dc663404bd920918548.webp",
+            "year": {
+                "name": "2020",
+                "link": "\/selection\/movie\/year-2020"
+            },
+            "imdb": "7.40",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u0444\u0435\u043d\u0442\u0435\u0437\u0456",
+                    "link": "\/selection\/movie\/genre-fantasy"
+                },
+                {
+                    "name": "\u0440\u043e\u043c\u0430\u043d\u0442\u0438\u0447\u043d\u0438\u0439",
+                    "link": "\/selection\/movie\/genre-romantychnyi"
+                },
+                {
+                    "name": "\u043c\u0435\u043b\u043e\u0434\u0440\u0430\u043c\u0438",
+                    "link": "\/selection\/movie\/genre-melodramy"
+                },
+                {
+                    "name": "\u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430",
+                    "link": "\/selection\/movie\/genre-fantasy-1"
+                },
+                {
+                    "name": "\u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432",
+                    "link": "\/selection\/movie\/genre-detective"
+                },
+                {
+                    "name": "\u043a\u043e\u043c\u0435\u0434\u0456\u044f",
+                    "link": "\/selection\/movie\/genre-comedy"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 85,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 3,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 213,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 109
+                }
+            }
+        },
+        {
+            "id": 4417,
+            "name": "\u041d\u0435\u043d\u0430\u0432\u0438\u0441\u0442\u044c",
+            "link": "\/movie-la-haine",
+            "poster": "\/images\/serials\/66\/66f51bb6dd0cd739875563.webp",
+            "year": {
+                "name": "1995",
+                "link": "\/selection\/movie\/year-1995"
+            },
+            "imdb": "8.10",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u0434\u0440\u0430\u043c\u0430",
+                    "link": "\/selection\/movie\/genre-drama"
+                },
+                {
+                    "name": "\u043a\u0440\u0438\u043c\u0456\u043d\u0430\u043b\u044c\u043d\u0438\u0439",
+                    "link": "\/selection\/movie\/genre-kriminalnij"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 82,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 2,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 34,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 51
+                }
+            }
+        },
+        {
+            "id": 5750,
+            "name": "\u041c\u0456\u0441\u0442\u043e \u0413\u0440\u0456\u0445\u0456\u0432",
+            "link": "\/movie-sin-city",
+            "poster": "\/images\/serials\/64\/6491ba0f29852365315537.webp",
+            "year": {
+                "name": "2005",
+                "link": "\/selection\/movie\/year-2005"
+            },
+            "imdb": "8.00",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u043a\u0440\u0438\u043c\u0456\u043d\u0430\u043b\u044c\u043d\u0438\u0439",
+                    "link": "\/selection\/movie\/genre-kriminalnij"
+                },
+                {
+                    "name": "\u0435\u043a\u0448\u043d",
+                    "link": "\/selection\/movie\/genre-action-1"
+                },
+                {
+                    "name": "\u0442\u0440\u0438\u043b\u0435\u0440",
+                    "link": "\/selection\/movie\/genre-thriller"
+                },
+                {
+                    "name": "\u0431\u043e\u0439\u043e\u0432\u0438\u043a",
+                    "link": "\/selection\/movie\/genre-action"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 139,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 1,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 128,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 73
+                }
+            }
+        },
+        {
+            "id": 8658,
+            "name": "\u0417\u043e\u0440\u044f\u043d\u0438\u0439 \u0434\u0435\u0441\u0430\u043d\u0442",
+            "link": "\/movie-starship-troopers",
+            "poster": "\/images\/serials\/65\/6569ca9cefc20068704161.webp",
+            "year": {
+                "name": "1997",
+                "link": "\/selection\/movie\/year-1997"
+            },
+            "imdb": "7.30",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u043f\u0440\u0438\u0433\u043e\u0434\u0438",
+                    "link": "\/selection\/movie\/genre-adventure"
+                },
+                {
+                    "name": "\u0435\u043a\u0448\u043d",
+                    "link": "\/selection\/movie\/genre-action-1"
+                },
+                {
+                    "name": "\u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430",
+                    "link": "\/selection\/movie\/genre-fantasy-1"
+                },
+                {
+                    "name": "\u0442\u0440\u0438\u043b\u0435\u0440",
+                    "link": "\/selection\/movie\/genre-thriller"
+                },
+                {
+                    "name": "\u0431\u043e\u0439\u043e\u0432\u0438\u043a",
+                    "link": "\/selection\/movie\/genre-action"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 39,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 3,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 113,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 67
+                }
+            }
+        },
+        {
+            "id": 20861,
+            "name": "\u041f\u0440\u043e\u0442\u043e\u043a\u043e\u043b-7",
+            "link": "\/movie-protocol-7",
+            "poster": "\/images\/serials\/67\/67e12addb43d8487975981.webp",
+            "year": {
+                "name": "2024",
+                "link": "\/selection\/movie\/year-2024"
+            },
+            "imdb": "5.10",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u0442\u0440\u0438\u043b\u0435\u0440",
+                    "link": "\/selection\/movie\/genre-thriller"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 21,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 0,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 4,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 12
+                }
+            }
+        },
+        {
+            "id": 14641,
+            "name": "\u041f\u043e\u0442\u044f\u0433 \u0434\u043e \u042e\u043c\u0438",
+            "link": "\/movie-3-10-to-yuma-1",
+            "poster": "\/images\/serials\/65\/65dc49e86c38c101082038.webp",
+            "year": {
+                "name": "2007",
+                "link": "\/selection\/movie\/year-2007"
+            },
+            "imdb": "7.60",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u043f\u0440\u0438\u0433\u043e\u0434\u0438",
+                    "link": "\/selection\/movie\/genre-adventure"
+                },
+                {
+                    "name": "\u0434\u0440\u0430\u043c\u0430",
+                    "link": "\/selection\/movie\/genre-drama"
+                },
+                {
+                    "name": "\u043a\u0440\u0438\u043c\u0456\u043d\u0430\u043b\u044c\u043d\u0438\u0439",
+                    "link": "\/selection\/movie\/genre-kriminalnij"
+                },
+                {
+                    "name": "\u0432\u0435\u0441\u0442\u0435\u0440\u043d",
+                    "link": "\/selection\/movie\/genre-western"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 59,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 1,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 37,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 38
+                }
+            }
+        },
+        {
+            "id": 12330,
+            "name": "\u041d\u0430 \u0437\u0435\u043c\u043b\u0456 \u0441\u0432\u044f\u0442\u0438\u0445\u00a0\u0456 \u0433\u0440\u0456\u0448\u043d\u0438\u0445",
+            "link": "\/movie-in-the-land-of-saints-and-sinners",
+            "poster": "\/images\/serials\/65\/65d1c58792241790167272.webp",
+            "year": {
+                "name": "2024",
+                "link": "\/selection\/movie\/year-2024"
+            },
+            "imdb": "6.40",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u0434\u0440\u0430\u043c\u0430",
+                    "link": "\/selection\/movie\/genre-drama"
+                },
+                {
+                    "name": "\u043a\u0440\u0438\u043c\u0456\u043d\u0430\u043b\u044c\u043d\u0438\u0439",
+                    "link": "\/selection\/movie\/genre-kriminalnij"
+                },
+                {
+                    "name": "\u0435\u043a\u0448\u043d",
+                    "link": "\/selection\/movie\/genre-action-1"
+                },
+                {
+                    "name": "\u0442\u0440\u0438\u043b\u0435\u0440",
+                    "link": "\/selection\/movie\/genre-thriller"
+                },
+                {
+                    "name": "\u0431\u043e\u0439\u043e\u0432\u0438\u043a",
+                    "link": "\/selection\/movie\/genre-action"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 105,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 8,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 54,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 170
+                }
+            }
+        },
+        {
+            "id": 13777,
+            "name": "\u041f\u043e\u0432\u0441\u0442\u0430\u043b\u0438\u0439 \u0437 \u043f\u0435\u043a\u043b\u0430",
+            "link": "\/movie-hellraiser-1",
+            "poster": "\/images\/serials\/65\/6585593ea8949418644646.webp",
+            "year": {
+                "name": "2022",
+                "link": "\/selection\/movie\/year-2022"
+            },
+            "imdb": "5.90",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u0436\u0430\u0445\u0438",
+                    "link": "\/selection\/movie\/genre-horrors"
+                },
+                {
+                    "name": "\u0442\u0440\u0438\u043b\u0435\u0440",
+                    "link": "\/selection\/movie\/genre-thriller"
+                },
+                {
+                    "name": "\u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432",
+                    "link": "\/selection\/movie\/genre-detective"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 32,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 0,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 29,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 26
+                }
+            }
+        },
+        {
+            "id": 3138,
+            "name": "\u0412\u0456\u0439\u043d\u0430 \u0411\u043e\u0433\u0456\u0432: \u0411\u0435\u0437\u0441\u043c\u0435\u0440\u0442\u043d\u0456",
+            "link": "\/movie-immortals",
+            "poster": "\/images\/serials\/64\/6454cddc4f4a7053963590.webp",
+            "year": {
+                "name": "2011",
+                "link": "\/selection\/movie\/year-2011"
+            },
+            "imdb": "6.00",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u0434\u0440\u0430\u043c\u0430",
+                    "link": "\/selection\/movie\/genre-drama"
+                },
+                {
+                    "name": "\u0444\u0435\u043d\u0442\u0435\u0437\u0456",
+                    "link": "\/selection\/movie\/genre-fantasy"
+                },
+                {
+                    "name": "\u0440\u043e\u043c\u0430\u043d\u0442\u0438\u0447\u043d\u0438\u0439",
+                    "link": "\/selection\/movie\/genre-romantychnyi"
+                },
+                {
+                    "name": "\u043c\u0435\u043b\u043e\u0434\u0440\u0430\u043c\u0438",
+                    "link": "\/selection\/movie\/genre-melodramy"
+                },
+                {
+                    "name": "\u0435\u043a\u0448\u043d",
+                    "link": "\/selection\/movie\/genre-action-1"
+                },
+                {
+                    "name": "\u0431\u043e\u0439\u043e\u0432\u0438\u043a",
+                    "link": "\/selection\/movie\/genre-action"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 25,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 2,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 38,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 24
+                }
+            }
+        },
+        {
+            "id": 2986,
+            "name": "\u041e\u0440\u0435\u043b \u0434\u0435\u0432\u0027\u044f\u0442\u043e\u0433\u043e \u043b\u0435\u0433\u0456\u043e\u043d\u0443",
+            "link": "\/movie-the-eagle",
+            "poster": "\/images\/serials\/64\/6452c45c8d539342262249.webp",
+            "year": {
+                "name": "2011",
+                "link": "\/selection\/movie\/year-2011"
+            },
+            "imdb": "6.20",
+            "trailer": false,
+            "released": true,
+            "favourite": true,
+            "genres": [
+                {
+                    "name": "\u043f\u0440\u0438\u0433\u043e\u0434\u0438",
+                    "link": "\/selection\/movie\/genre-adventure"
+                },
+                {
+                    "name": "\u0434\u0440\u0430\u043c\u0430",
+                    "link": "\/selection\/movie\/genre-drama"
+                },
+                {
+                    "name": "\u0435\u043a\u0448\u043d",
+                    "link": "\/selection\/movie\/genre-action-1"
+                },
+                {
+                    "name": "\u0456\u0441\u0442\u043e\u0440\u0438\u0447\u043d\u0438\u0439",
+                    "link": "\/selection\/movie\/genre-historical"
+                },
+                {
+                    "name": "\u0431\u043e\u0439\u043e\u0432\u0438\u043a",
+                    "link": "\/selection\/movie\/genre-action"
+                }
+            ],
+            "lists": {
+                "willWatch": {
+                    "id": "willWatch_56603",
+                    "active": true,
+                    "count": 16,
+                    "privacy": "private",
+                    "hash": "f7d1b07fd9cfcf626ba93cafb9f8698f"
+                },
+                "watching": {
+                    "id": "watching_56603",
+                    "active": false,
+                    "count": 1,
+                    "privacy": "private",
+                    "hash": "606a3dc2bea905c42eef92788106967e"
+                },
+                "watched": {
+                    "id": "watched_56603",
+                    "active": false,
+                    "count": 37,
+                    "privacy": "private",
+                    "hash": "9aab3dc4af11577ff495e551448626fb"
+                },
+                "favourite": {
+                    "id": "favourite_56603",
+                    "count": 194,
+                    "privacy": "private",
+                    "hash": "8807b11bbccfd34d0da5f479c9f98460"
+                },
+                "lists": {
+                    "active": true,
+                    "count": 28
+                }
+            }
+        }
+    ]
+}

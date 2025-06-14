@@ -3,13 +3,26 @@ require 'json'
 namespace :db do
   desc "Populate movies table from list.json"
   task populate_movies: :environment do
-    file_path = File.expand_path('../../list.json', __dir__)
-    unless File.exist?(file_path)
-      puts "list.json not found at #{file_path}"
+    movies_array = []
+    (1..10).each do |i|
+      file_path = File.expand_path("../../lists/#{i}.json", __dir__)
+
+      if File.exist?(file_path)
+        file_movies = JSON.parse(File.read(file_path, encoding: 'utf-8'))['movies']
+        movies_array.concat(file_movies)
+        puts "Loaded #{file_movies.length} movies from #{i}.json"
+      else
+        puts "#{i}.json not found at #{file_path}"
+      end
+    end
+
+    if movies_array.empty?
+      puts "No movies found in any JSON files"
       exit 1
     end
 
-    movies = JSON.parse(File.read(file_path, encoding: 'utf-8'))['movies']
+    movies = movies_array
+
     movies.each do |movie_data|
       movie = Movie.find_or_initialize_by(uaserial_id: movie_data['id'])
       movie.title = movie_data['name']
