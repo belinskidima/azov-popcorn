@@ -21,16 +21,16 @@
               %div.flex.justify-center.items-center.mt-2
               %h2.text-xl.font-semibold= movie['name']
               %div.flex.justify-between.items-center.mt-2
-              %div.flex.items-center
-                %span.text-sm.text-gray-600.font-bold= movie['year']['name']
-              %div.flex.items-center
-                %i.fas.fa-star.text-yellow-500.mr-1
-                %span.text-sm.text-gray-600= movie['imdb']
+                %div.flex.items-center
+                  %span.text-sm.text-gray-600.font-bold= movie['year']['name']
+                %div.flex.items-center.justify-between
+                  %i.fas.fa-star.text-yellow-500.mr-1
+                  %span.text-sm.text-gray-600= movie['imdb']
 :javascript
   //<![CDATA[
   function renderMovieCard(movie, showBingo = false) {
     return `
-      <div class="mt-4 bg-white shadow-lg rounded-lg p-4 text-center flex flex-col justify-between h-full coll-span-1 col-start-3 max-w-sm">
+      <div class="mt-4 bg-white shadow-lg rounded-lg p-4 text-center flex flex-col justify-between h-full coll-span-1 col-start-3 max-w-sm" onclick="window.open('https://uaserial.top/${movie.link}', '_blank')" style="cursor: pointer;">
         ${showBingo ? '<div class="text-2xl font-bold text-green-600 mb-2">Bingo!</div>' : ''}
         <img src="https://uaserial.top/${movie.poster}" alt="${movie.name}" class="w-32 h-48 mt-2 mx-auto">
         <div class="flex justify-center items-center mt-2">
