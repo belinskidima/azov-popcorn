@@ -18,27 +18,27 @@
         %div.grid.grid-cols-5.grid-rows-5.gap-4
           - movies.each do |movie|
             %div.mt-4.bg-indigo-100.shadow-lg.rounded-lg.p-4.text-center.flex.flex-col.justify-between.h-full.hover:scale-98.transition-transform.duration-200{onclick: "window.open('https://uaserial.top#{movie['link']}', '_blank')", style: "cursor: pointer;"}
-              %img{src: "https://uaserial.top/#{movie['poster']}", alt: movie['name'], class: "w-32 h-48 mt-2 mx-auto"}
+              %img{src: movie.poster_url, alt: movie.title, class: "w-32 h-48 mt-2 mx-auto"}
               %div.flex.justify-center.items-center.mt-2
-                %h2.text-base.font-semibold= movie['name']
+                %h2.text-base.font-semibold= movie.title
               %div.flex.justify-between.items-center.mt-2
                 %div.flex.items-center
-                  %span.text-sm.text-gray-600.font-bold= movie['year']['name']
+                  %span.text-sm.text-gray-600.font-bold= movie.year
                 %div.flex.items-center
                   %i.fas.fa-star.text-yellow-500.mr-1
-                  %span.text-sm.text-gray-600= movie['imdb']
+                  %span.text-sm.text-gray-600= movie.imdb
 
 :javascript
   function renderMovieCard(movie) {
     return `
       <div id="carousel" class="mt-4 bg-indigo-100 shadow-lg rounded-lg p-4 text-center flex flex-col justify-between h-full coll-span-1 col-start-3 hover:scale-98 transition-transform duration-200" onclick="window.open('https://uaserial.top${movie.link}', '_blank')" style="cursor: pointer;">
-        <img src="https://uaserial.top/${movie.poster}" alt="${movie.name}" class="w-32 h-48 mt-2 mx-auto">
+        <img src="${movie.poster_url}" alt="${movie.title}" class="w-32 h-48 mt-2 mx-auto">
         <div class="flex justify-center items-center mt-2">
-          <h2 class="text-base font-semibold">${movie.name}</h2>
+          <h2 class="text-base font-semibold">${movie.title}</h2>
         </div>
         <div class="flex justify-between items-center mt-2">
           <div class="flex items-center">
-            <span class="text-sm text-gray-600 font-bold">${movie.year.name}</span>
+            <span class="text-sm text-gray-600 font-bold">${movie.year}</span>
           </div>
           <div class="flex items-center">
             <i class="fas fa-star text-yellow-500 mr-1"></i>

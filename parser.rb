@@ -1,9 +1,12 @@
 RACK_ENV= ENV['RACK_ENV'] || 'development'
 
-require 'sinatra/base'
-require 'json'
+require 'sinatra'
+require 'sinatra/activerecord'
+require 'pg'
 
-MOVIES = JSON.parse(File.read('list.json', encoding: 'utf-8'))
+require_relative './models/movie'
+
+set :database, ENV['DATABASE_URL']
 
 class App < Sinatra::Base
   configure :development do
@@ -17,6 +20,7 @@ class App < Sinatra::Base
   end
 
   get '/' do
-    haml :index, locals: { movies: MOVIES['movies'].shuffle }
+    puts Movie.all.to_a.shuffle
+    haml :index, locals: { movies: Movie.all.shuffle }
   end
 end
