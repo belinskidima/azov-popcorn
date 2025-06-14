@@ -68,7 +68,12 @@
     var thirtyMinutes = 30 * 60 * 1000; // 30 minutes in milliseconds
 
     if (now - last_attempt_at > thirtyMinutes) {
-      localStorage.removeItem(clickKey);
+      var storedSkipList = storedData?.skip_list || [];
+      localStorage.setItem(clickKey, JSON.stringify({
+        clicks: 0,
+        last_attempt_at: now,
+        skip_list: storedSkipList
+      }));
       clicks = 0;
     }
 
@@ -100,13 +105,13 @@
         return;
       }
 
-      // Disable button during animation
       $btn.prop('disabled', true).addClass('disabled');
 
       clicks += 1;
       localStorage.setItem(clickKey, JSON.stringify({
         clicks: clicks,
-        last_attempt_at: new Date().getTime()
+        last_attempt_at: new Date().getTime(),
+        skip_list: storedData?.skip_list || []
       }));
 
       $('#main-list').hide();
@@ -129,6 +134,18 @@
       setTimeout(function() {
         clearInterval(animationInterval);
         var chosen = movies[Math.floor(Math.random() * movies.length)];
+
+        // Add chosen movie to skip list
+        var storedData = JSON.parse(localStorage.getItem(clickKey)) || {};
+        var skipList = storedData.skip_list || [];
+        if (chosen.id && !skipList.includes(chosen.id)) {
+          skipList.push(chosen.id);
+          localStorage.setItem(clickKey, JSON.stringify({
+            clicks: storedData.clicks || 0,
+            last_attempt_at: storedData.last_attempt_at || 0,
+            skip_list: skipList
+          }));
+        }
         showBingo(chosen);
         updateButtonState();
       }, animationDuration);
