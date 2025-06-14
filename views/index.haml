@@ -1,0 +1,76 @@
+%html
+  %head
+    %link{href: "https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css", rel: "stylesheet"}
+    %link{href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css", rel: "stylesheet"}
+    %script{src: "https://code.jquery.com/jquery-3.6.0.min.js"}
+  %body
+    .container.mx-auto.px-8.mt-100
+      %div.mt-8.grid.text-center
+        %h1.text-4xl.font-bold.text-blue-900 HuiPizdaMovies
+        %p.text-lg.text-gray-700.mt-2 Welcome to HuiPizdaMovies, your source for the ebanutest movies!
+        .flex.justify-center
+          %button.bg-blue-600.hover:bg-blue-700.text-white.font-bold.py-3.px-6.rounded-lg.shadow-lg.transition-colors.duration-200.mt-4.max-w-sm#carousel-btn Pizdavarot!!!
+      #carousel-result{style: "display:none;"}
+        %div.grid.grid-cols-5.gap-4#carousel-animation
+          -# %div.mt-4.bg-white.shadow-lg.rounded-lg.p-4.text-center.flex.flex-col.justify-between.h-full
+      #main-list
+        %div.mt-8.grid.grid-cols-1.sm:grid-cols-2.md:grid-cols-3.lg:grid-cols-4.gap-6.max
+          - movies.each do |movie|
+            %div.mt-4.bg-white.shadow-lg.rounded-lg.p-4.text-center.flex.flex-col.justify-between.h-full{onclick: "window.open('https://uaserial.top/#{movie['link']}', '_blank')", style: "cursor: pointer;"}
+              %img{src: "https://uaserial.top/#{movie['poster']}", alt: movie['name'], class: "w-32 h-48 mt-2 mx-auto"}
+              %div.flex.justify-center.items-center.mt-2
+              %h2.text-xl.font-semibold= movie['name']
+              %div.flex.justify-between.items-center.mt-2
+              %div.flex.items-center
+                %span.text-sm.text-gray-600.font-bold= movie['year']['name']
+              %div.flex.items-center
+                %i.fas.fa-star.text-yellow-500.mr-1
+                %span.text-sm.text-gray-600= movie['imdb']
+:javascript
+  //<![CDATA[
+  function renderMovieCard(movie, showBingo = false) {
+    return `
+      <div class="mt-4 bg-white shadow-lg rounded-lg p-4 text-center flex flex-col justify-between h-full coll-span-1 col-start-3 max-w-sm">
+        ${showBingo ? '<div class="text-2xl font-bold text-green-600 mb-2">Bingo!</div>' : ''}
+        <img src="https://uaserial.top/${movie.poster}" alt="${movie.name}" class="w-32 h-48 mt-2 mx-auto">
+        <div class="flex justify-center items-center mt-2">
+          <h2 class="text-xl font-semibold">${movie.name}</h2>
+        </div>
+        <div class="flex justify-between items-center mt-2">
+          <div class="flex items-center">
+            <span class="text-sm text-gray-600 font-bold">${movie.year.name}</span>
+          </div>
+          <div class="flex items-center">
+            <i class="fas fa-star text-yellow-500 mr-1"></i>
+            <span class="text-sm text-gray-600">${movie.imdb}</span>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  $(document).ready(function() {
+    var movies = #{movies.to_json};
+    var animationInterval;
+    var animationDuration = 8000; // 5 seconds
+
+    $('#carousel-btn').on('click', function() {
+      $('#main-list').hide();
+      $('#carousel-result').show();
+
+      var $anim = $('#carousel-animation');
+      var start = Date.now();
+
+      animationInterval = setInterval(function() {
+        var randomMovie = movies[Math.floor(Math.random() * movies.length)];
+        $anim.html(renderMovieCard(randomMovie));
+      }, 500);
+
+      setTimeout(function() {
+        clearInterval(animationInterval);
+        var chosen = movies[Math.floor(Math.random() * movies.length)];
+        $anim.html(renderMovieCard(chosen, true));
+      }, animationDuration);
+    });
+  });
+//]]>
