@@ -1,40 +1,40 @@
 %html
   %head
-    %link{href: "https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css", rel: "stylesheet"}
+    %script{src: "https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"}
     %link{href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css", rel: "stylesheet"}
     %script{src: "https://code.jquery.com/jquery-3.6.0.min.js"}
-  %body
-    .container.mx-auto.px-8.mt-100
+  %body.bg-slate-950
+    .container.mx-auto.px-8
       %div.mt-8.grid.text-center
-        %h1.text-4xl.font-bold.text-blue-900 HuiPizdaMovies
-        %p.text-lg.text-gray-700.mt-2 Welcome to HuiPizdaMovies, your source for the ebanutest movies!
+        %h1.text-4xl.font-bold.text-pink-900 HuiPizdaMovies
+        %p.text-lg.text-purple-700.mt-2 Welcome to HuiPizdaMovies, your source for the ebanutest movies!
         .flex.justify-center
-          %button.bg-blue-600.hover:bg-blue-700.text-white.font-bold.py-3.px-6.rounded-lg.shadow-lg.transition-colors.duration-200.mt-4.max-w-sm#carousel-btn Pizdavarot!!!
-      #carousel-result{style: "display:none;"}
-        %div.grid.grid-cols-5.gap-4#carousel-animation
-          -# %div.mt-4.bg-white.shadow-lg.rounded-lg.p-4.text-center.flex.flex-col.justify-between.h-full
+          %button#carousel-btn{type: "button", class: "cursor-pointer mt-4 text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"}
+            Pizdavarot!!!
+          -# %button.bg-blue-600.hover:bg-blue-700.text-white.font-bold.py-3.px-6.rounded-lg.shadow-lg.transition-colors.duration-200.mt-4.max-w-sm#carousel-btn{type: 'button'} Pizdavarot!!!
+      #carousel-result.relative.mx-auto.w-full{style: "display:none;"}
+        %div.grid.grid-cols-5.gap-4.transform.transition-all.duration-300.opacity-100.scale-100#carousel-animation
       #main-list
-        %div.mt-8.grid.grid-cols-1.sm:grid-cols-2.md:grid-cols-3.lg:grid-cols-4.gap-6.max
+        %div.grid.grid-cols-5.grid-rows-5.gap-4
           - movies.each do |movie|
-            %div.mt-4.bg-white.shadow-lg.rounded-lg.p-4.text-center.flex.flex-col.justify-between.h-full{onclick: "window.open('https://uaserial.top/#{movie['link']}', '_blank')", style: "cursor: pointer;"}
+            %div.mt-4.bg-indigo-100.shadow-lg.rounded-lg.p-4.text-center.flex.flex-col.justify-between.h-full.hover:scale-98.transition-transform.duration-200{onclick: "window.open('https://uaserial.top#{movie['link']}', '_blank')", style: "cursor: pointer;"}
               %img{src: "https://uaserial.top/#{movie['poster']}", alt: movie['name'], class: "w-32 h-48 mt-2 mx-auto"}
               %div.flex.justify-center.items-center.mt-2
-              %h2.text-xl.font-semibold= movie['name']
+                %h2.text-base.font-semibold= movie['name']
               %div.flex.justify-between.items-center.mt-2
                 %div.flex.items-center
                   %span.text-sm.text-gray-600.font-bold= movie['year']['name']
-                %div.flex.items-center.justify-between
+                %div.flex.items-center
                   %i.fas.fa-star.text-yellow-500.mr-1
                   %span.text-sm.text-gray-600= movie['imdb']
+
 :javascript
-  //<![CDATA[
-  function renderMovieCard(movie, showBingo = false) {
+  function renderMovieCard(movie) {
     return `
-      <div class="mt-4 bg-white shadow-lg rounded-lg p-4 text-center flex flex-col justify-between h-full coll-span-1 col-start-3 max-w-sm" onclick="window.open('https://uaserial.top${movie.link}', '_blank')" style="cursor: pointer;">
-        ${showBingo ? '<div class="text-2xl font-bold text-green-600 mb-2">Bingo!</div>' : ''}
+      <div id="carousel" class="mt-4 bg-indigo-100 shadow-lg rounded-lg p-4 text-center flex flex-col justify-between h-full coll-span-1 col-start-3 hover:scale-98 transition-transform duration-200" onclick="window.open('https://uaserial.top${movie.link}', '_blank')" style="cursor: pointer;">
         <img src="https://uaserial.top/${movie.poster}" alt="${movie.name}" class="w-32 h-48 mt-2 mx-auto">
         <div class="flex justify-center items-center mt-2">
-          <h2 class="text-xl font-semibold">${movie.name}</h2>
+          <h2 class="text-base font-semibold">${movie.name}</h2>
         </div>
         <div class="flex justify-between items-center mt-2">
           <div class="flex items-center">
@@ -49,28 +49,88 @@
     `;
   }
 
+  function showBingo(movie) {
+    var $anim = $('#carousel-animation');
+    $anim.html(renderMovieCard(movie));
+  }
+
   $(document).ready(function() {
     var movies = #{movies.to_json};
     var animationInterval;
-    var animationDuration = 8000; // 5 seconds
+    var animationDuration = 5000; // 5 seconds
 
-    $('#carousel-btn').on('click', function() {
+    var maxClicks = 3;
+    var clickKey = 'carouselClicks';
+    var storedData = JSON.parse(localStorage.getItem(clickKey));
+    var clicks = storedData?.clicks || 0;
+    var last_attempt_at = storedData?.last_attempt_at || 0;
+    var now = new Date().getTime();
+    var thirtyMinutes = 30 * 60 * 1000; // 30 minutes in milliseconds
+
+    if (now - last_attempt_at > thirtyMinutes) {
+      localStorage.removeItem(clickKey);
+      clicks = 0;
+    }
+
+    function updateButtonState(performing = false) {
+      var $btn = $('#carousel-btn');
+      if (clicks >= maxClicks || performing) {
+        $btn.prop('disabled', true)
+            .addClass('opacity-50 cursor-not-allowed')
+            .text(`Pizdavaroting ${performing ? '...' : '(limit reached)'}`);
+      } else {
+        $btn.prop('disabled', false)
+            .removeClass('opacity-50 cursor-not-allowed')
+            .text('Pizdavaroting!!!');
+      }
+    }
+
+    updateButtonState();
+
+    $('#carousel-btn').on('click', function(e) {
+      e.preventDefault();
+
+      var $btn = $(this);
+
+      var storedData = JSON.parse(localStorage.getItem(clickKey));
+      clicks = storedData?.clicks || 0;
+
+      if (clicks >= maxClicks) {
+        updateButtonState();
+        return;
+      }
+
+      // Disable button during animation
+      $btn.prop('disabled', true).addClass('disabled');
+
+      clicks += 1;
+      localStorage.setItem(clickKey, JSON.stringify({
+        clicks: clicks,
+        last_attempt_at: new Date().getTime()
+      }));
+
       $('#main-list').hide();
       $('#carousel-result').show();
 
       var $anim = $('#carousel-animation');
-      var start = Date.now();
+      var $carousel = $('#carousel');
 
       animationInterval = setInterval(function() {
         var randomMovie = movies[Math.floor(Math.random() * movies.length)];
-        $anim.html(renderMovieCard(randomMovie));
-      }, 500);
+        updateButtonState(true)
+        $anim.removeClass('opacity-100 scale-100').addClass('opacity-60 scale-95');
+
+        setTimeout(function() {
+          $anim.html(renderMovieCard(randomMovie));
+          $anim.removeClass('opacity-60 scale-95').addClass('opacity-100 scale-100');
+        }, 200);
+      }, 400);
 
       setTimeout(function() {
         clearInterval(animationInterval);
         var chosen = movies[Math.floor(Math.random() * movies.length)];
-        $anim.html(renderMovieCard(chosen, true));
+        showBingo(chosen);
+        updateButtonState();
       }, animationDuration);
     });
   });
-//]]>
