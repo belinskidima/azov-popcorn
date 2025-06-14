@@ -17,7 +17,7 @@
       #main-list
         %div.grid.grid-cols-5.grid-rows-5.gap-4
           - movies.each do |movie|
-            %div.mt-4.bg-indigo-100.shadow-lg.rounded-lg.p-4.text-center.flex.flex-col.justify-between.h-full.hover:scale-98.transition-transform.duration-200{onclick: "window.open('https://uaserial.top#{movie['link']}', '_blank')", style: "cursor: pointer;"}
+            %div.mt-4.bg-indigo-100.shadow-lg.rounded-lg.p-4.text-center.flex.flex-col.justify-between.h-full.hover:scale-98.transition-transform.duration-200{onclick: "window.open('#{movie.url}', '_blank')", style: "cursor: pointer;"}
               %img{src: movie.poster_url, alt: movie.title, class: "w-32 h-48 mt-2 mx-auto"}
               %div.flex.justify-center.items-center.mt-2
                 %h2.text-base.font-semibold= movie.title
@@ -31,7 +31,7 @@
 :javascript
   function renderMovieCard(movie) {
     return `
-      <div id="carousel" class="mt-4 bg-indigo-100 shadow-lg rounded-lg p-4 text-center flex flex-col justify-between h-full coll-span-1 col-start-3 hover:scale-98 transition-transform duration-200" onclick="window.open('https://uaserial.top${movie.link}', '_blank')" style="cursor: pointer;">
+      <div id="carousel" class="mt-4 bg-indigo-100 shadow-lg rounded-lg p-4 text-center flex flex-col justify-between h-full coll-span-1 col-start-3 hover:scale-98 transition-transform duration-200" onclick="window.open('${movie.url}', '_blank')" style="cursor: pointer;">
         <img src="${movie.poster_url}" alt="${movie.title}" class="w-32 h-48 mt-2 mx-auto">
         <div class="flex justify-center items-center mt-2">
           <h2 class="text-base font-semibold">${movie.title}</h2>

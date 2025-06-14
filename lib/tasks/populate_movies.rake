@@ -21,9 +21,7 @@ namespace :db do
       exit 1
     end
 
-    movies = movies_array
-
-    movies.each do |movie_data|
+    movies_array.each do |movie_data|
       movie = Movie.find_or_initialize_by(uaserial_id: movie_data['id'])
       movie.title = movie_data['name']
       movie.url = "https://uaserial.top" + movie_data['link']
